@@ -1,0 +1,101 @@
+Cmp-Mod V01 Created by CvPcb (2012-01-18 BZR 3371)-testing date = Tue 07 Feb 2012 06:32:53 PM EST
+
+BeginCmp
+TimeStamp = /4F319E8B;
+Reference = C1;
+ValeurCmp = 100u;
+IdModule  = C8mmV;
+EndCmp
+
+BeginCmp
+TimeStamp = /4F2EFF8F;
+Reference = C2;
+ValeurCmp = 0.1u;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /4F2F00F5;
+Reference = C3;
+ValeurCmp = 10n;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /4F2EFBE1;
+Reference = D1;
+ValeurCmp = 1n4148;
+IdModule  = R1;
+EndCmp
+
+BeginCmp
+TimeStamp = /4F2EFBEE;
+Reference = D2;
+ValeurCmp = 1n4148;
+IdModule  = R1;
+EndCmp
+
+BeginCmp
+TimeStamp = /4F308BEA;
+Reference = K1;
+ValeurCmp = CONN_3;
+IdModule  = PIN_ARRAY_3X1;
+EndCmp
+
+BeginCmp
+TimeStamp = /4F2EFE3C;
+Reference = P1;
+ValeurCmp = LED;
+IdModule  = PIN_ARRAY_2X1;
+EndCmp
+
+BeginCmp
+TimeStamp = /4F2EFDB5;
+Reference = Q1;
+ValeurCmp = FDV301;
+IdModule  = SOT23GDS;
+EndCmp
+
+BeginCmp
+TimeStamp = /4F2EF8E7;
+Reference = R1;
+ValeurCmp = 1k;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /4F2EFD60;
+Reference = R2;
+ValeurCmp = 1k;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /4F2EFE07;
+Reference = R3;
+ValeurCmp = 10;
+IdModule  = R1;
+EndCmp
+
+BeginCmp
+TimeStamp = /4F2EFB44;
+Reference = RV1;
+ValeurCmp = 10k;
+IdModule  = pot20k;
+EndCmp
+
+BeginCmp
+TimeStamp = /4F2F020A;
+Reference = SW1;
+ValeurCmp = SPST;
+IdModule  = PIN_ARRAY_2X1;
+EndCmp
+
+BeginCmp
+TimeStamp = /4F2EFAD0;
+Reference = U1;
+ValeurCmp = NE555;
+IdModule  = SO8E;
+EndCmp
+
+EndListe

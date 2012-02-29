@@ -1,0 +1,116 @@
+# EESchema Netlist Version 1.1 created  Tue 07 Feb 2012 06:32:53 PM EST
+(
+ ( /4F319E8B C8mmV C1 100u
+  ( 1 VCC )
+  ( 2 GND )
+ )
+ ( /4F2EFF8F SM0805 C2 0.1u
+  ( 1 N-000004 )
+  ( 2 GND )
+ )
+ ( /4F2F00F5 SM0805 C3 10n
+  ( 1 N-000006 )
+  ( 2 GND )
+ )
+ ( /4F2EFBE1 R1 D1 1n4148
+  ( 1 N-000007 )
+  ( 2 N-000009 )
+ )
+ ( /4F2EFBEE R1 D2 1n4148
+  ( 1 N-000009 )
+  ( 2 N-000008 )
+ )
+ ( /4F308BEA PIN_ARRAY_3X1 K1 CONN_3
+  ( 1 N-000005 )
+  ( 2 GND )
+  ( 3 GND )
+ )
+ ( /4F2EFE3C PIN_ARRAY_2X1 P1 LED
+  ( 1 N-000003 )
+  ( 2 N-000002 )
+ )
+ ( /4F2EFDB5 SOT23GDS Q1 FDV301
+  ( D N-000002 )
+  ( G N-000011 )
+  ( S GND )
+ )
+ ( /4F2EF8E7 SM0805 R1 1k
+  ( 1 VCC )
+  ( 2 N-000009 )
+ )
+ ( /4F2EFD60 SM0805 R2 1k
+  ( 1 N-000011 )
+  ( 2 GND )
+ )
+ ( /4F2EFE07 R1 R3 10
+  ( 1 VCC )
+  ( 2 N-000003 )
+ )
+ ( /4F2EFB44 pot20k RV1 10k
+  ( 1 N-000008 )
+  ( 2 N-000004 )
+  ( 3 N-000007 )
+ )
+ ( /4F2F020A PIN_ARRAY_2X1 SW1 SPST
+  ( 1 N-000005 )
+  ( 2 VCC )
+ )
+ ( /4F2EFAD0 SO8E U1 NE555
+  ( 1 GND )
+  ( 2 N-000004 )
+  ( 3 N-000011 )
+  ( 4 VCC )
+  ( 5 N-000006 )
+  ( 6 N-000004 )
+  ( 7 N-000009 )
+  ( 8 VCC )
+ )
+)
+*
+{ Allowed footprints by component:
+$component C1
+ SM*
+ C?
+ C1-1
+$endlist
+$component C2
+ SM*
+ C?
+ C1-1
+$endlist
+$component C3
+ SM*
+ C?
+ C1-1
+$endlist
+$component D1
+ D?
+ S*
+$endlist
+$component D2
+ D?
+ S*
+$endlist
+$component R1
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R2
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R3
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$endfootprintlist
+}
